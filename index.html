@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Bounce // 2D Physics Arcade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <header>
+            <h1>QUANTUM BOUNCE</h1>
+            <p>Press <strong>SPACEBAR</strong> to invert gravity. Avoid the red incoming sector blocks!</p>
+        </header>
+
+        <canvas id="gameCanvas" width="800" height="400"></canvas>
+
+        <div class="ui-panel">
+            <span id="score-label">Score: 0</span> | 
+            <span id="highscore-label">High Score: 0</span>
+        </div>
+        
+        <button id="restart-btn" style="display: none;">Initialize System Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
